@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-npm install && phonegap platform add ios
+export PATH=$PATH:/usr/local/share/npm/bin
+npm install
+phonegap platform add ios
